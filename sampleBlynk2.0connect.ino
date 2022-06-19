@@ -20,7 +20,7 @@ void setup()
   // Debug console
   Serial.begin(9600);
 
-  Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
+  Blynk.begin(auth, ssid, pass, "blynk.cloud", 80); //for blynk server ver2.0
 }
 
 void loop()
