@@ -18,6 +18,7 @@ void loop() {
   // Check if any reads failed and exit early (to try again).
   if (isnan(h) || isnan(t) || isnan(f)) {
     Serial.println(F("Failed to read from DHT sensor!"));
+    return;
   }
 
   Serial.print(F("Humidity: "));
