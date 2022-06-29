@@ -14,7 +14,7 @@ void loop() {
 }
 
 //ฟังก์ชันสำหรับคำนวณระยะทางจาก Ultrasonic
-int checkDistance() {
+long checkDistance() {
   int duration, cm;
   pinMode(trig, OUTPUT);
   digitalWrite(trig, LOW);
