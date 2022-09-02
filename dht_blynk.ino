@@ -7,15 +7,15 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include "DHT.h"
-#define DHTPIN D4
+#define DHTPIN D1
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
 #define BLYNK_AUTH_TOKEN "YvG_1Tkj4UXQSaIDTegCU6-avwJzt0U7" //Enter your blynk auth token
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Orange_2.4G";//Enter your WIFI name
-char pass[] = "0829887580";//Enter your WIFI password
+char ssid[] = "KPN@WIFI";//Enter your WIFI name
+char pass[] = "";//Enter your WIFI password
 
 
 void setup() {
