@@ -11,7 +11,9 @@
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
-#define BLYNK_AUTH_TOKEN "YvG_1Tkj4UXQSaIDTegCU6-avwJzt0U7" //Enter your blynk auth token
+#define BLYNK_TEMPLATE_ID "TMPLIy6XyNcT"
+#define BLYNK_DEVICE_NAME "NodemcuBlynk"
+#define BLYNK_AUTH_TOKEN "OLtRS88nV-Aci8OM4O4-A_qPkRIJurw3"
 
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "KPN@WIFI";//Enter your WIFI name
