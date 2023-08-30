@@ -1,4 +1,3 @@
-//library download https://www.mediafire.com/download/6qh8q1g0kmokl4g/DHT11.rar
 #define BLYNK_PRINT Serial
 //Template ID และ Token ได้มาจากเว็บ blynk
 #define BLYNK_TEMPLATE_ID "TMPLIy6XyNcT"
